@@ -1,0 +1,2197 @@
+{
+  "symbol": "SYNTH-01",
+  "tickSize": "0.01",
+  "frames": [
+    {
+      "step": 1,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "S1",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 10,
+        "note": "卖单 10.00×10 入簿排队"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 32,
+        "clientOrderId": "S1",
+        "symbol": "SYNTH-01",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 10,
+        "filledQuantity": 0,
+        "remainingQuantity": 10,
+        "status": "NEW",
+        "seq": 1,
+        "createdAt": "2026-09-28T21:47:19.667119209Z",
+        "updatedAt": "2026-09-28T21:47:19.667120667Z"
+      },
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1000,
+              "quantity": 10,
+              "orderCount": 1
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 10,
+            "status": "NEW",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.667121Z"
+          }
+        ],
+        "trades": [],
+        "conservation": {
+          "tradeCount": 0,
+          "totalTradeVolume": 0,
+          "totalFilledQuantity": 0,
+          "buyFilledQuantity": 0,
+          "sellFilledQuantity": 0,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 1,
+          "totalOrderCount": 1
+        }
+      }
+    },
+    {
+      "step": 2,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "S2",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 10,
+        "note": "卖单 10.00×10 同价排第二"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 33,
+        "clientOrderId": "S2",
+        "symbol": "SYNTH-01",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 10,
+        "filledQuantity": 0,
+        "remainingQuantity": 10,
+        "status": "NEW",
+        "seq": 2,
+        "createdAt": "2026-09-28T21:47:19.679266250Z",
+        "updatedAt": "2026-09-28T21:47:19.679267042Z"
+      },
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1000,
+              "quantity": 20,
+              "orderCount": 2
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 10,
+            "status": "NEW",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.679267Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 10,
+            "status": "NEW",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.667121Z"
+          }
+        ],
+        "trades": [],
+        "conservation": {
+          "tradeCount": 0,
+          "totalTradeVolume": 0,
+          "totalFilledQuantity": 0,
+          "buyFilledQuantity": 0,
+          "sellFilledQuantity": 0,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 2,
+          "totalOrderCount": 2
+        }
+      }
+    },
+    {
+      "step": 3,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "S3",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 10,
+        "note": "卖单 10.00×10 同价排第三"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 34,
+        "clientOrderId": "S3",
+        "symbol": "SYNTH-01",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 10,
+        "filledQuantity": 0,
+        "remainingQuantity": 10,
+        "status": "NEW",
+        "seq": 3,
+        "createdAt": "2026-09-28T21:47:19.689020792Z",
+        "updatedAt": "2026-09-28T21:47:19.689022Z"
+      },
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1000,
+              "quantity": 30,
+              "orderCount": 3
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 10,
+            "status": "NEW",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.689022Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 10,
+            "status": "NEW",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.679267Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 10,
+            "status": "NEW",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.667121Z"
+          }
+        ],
+        "trades": [],
+        "conservation": {
+          "tradeCount": 0,
+          "totalTradeVolume": 0,
+          "totalFilledQuantity": 0,
+          "buyFilledQuantity": 0,
+          "sellFilledQuantity": 0,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 3,
+          "totalOrderCount": 3
+        }
+      }
+    },
+    {
+      "step": 4,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "B1",
+        "side": "BUY",
+        "priceTicks": 1000,
+        "quantity": 15,
+        "note": "买单 10.00×15：S1全成10、S2部成5（FIFO+部分成交）"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 35,
+        "clientOrderId": "B1",
+        "symbol": "SYNTH-01",
+        "side": "BUY",
+        "priceTicks": 1000,
+        "quantity": 15,
+        "filledQuantity": 15,
+        "remainingQuantity": 0,
+        "status": "FILLED",
+        "seq": 0,
+        "createdAt": "2026-09-28T21:47:19.699952709Z",
+        "updatedAt": "2026-09-28T21:47:19.700667959Z"
+      },
+      "newTrades": [
+        {
+          "id": 20,
+          "symbol": "SYNTH-01",
+          "makerOrderId": 32,
+          "makerClientOrderId": "S1",
+          "takerOrderId": 35,
+          "takerClientOrderId": "B1",
+          "takerSide": "BUY",
+          "priceTicks": 1000,
+          "quantity": 10,
+          "createdAt": "2026-09-28T21:47:19.700666Z"
+        },
+        {
+          "id": 21,
+          "symbol": "SYNTH-01",
+          "makerOrderId": 33,
+          "makerClientOrderId": "S2",
+          "takerOrderId": 35,
+          "takerClientOrderId": "B1",
+          "takerSide": "BUY",
+          "priceTicks": 1000,
+          "quantity": 5,
+          "createdAt": "2026-09-28T21:47:19.700672Z"
+        }
+      ],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1000,
+              "quantity": 15,
+              "orderCount": 2
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 10,
+            "status": "NEW",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.689022Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 5,
+            "status": "PARTIALLY_FILLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 2,
+          "totalTradeVolume": 15,
+          "totalFilledQuantity": 30,
+          "buyFilledQuantity": 15,
+          "sellFilledQuantity": 15,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 2,
+          "totalOrderCount": 4
+        }
+      }
+    },
+    {
+      "step": 5,
+      "command": {
+        "type": "CANCEL",
+        "clientOrderId": "S2",
+        "note": "撤销 S2 剩余5（已成交5保留）"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 33,
+        "clientOrderId": "S2",
+        "symbol": "SYNTH-01",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 10,
+        "filledQuantity": 5,
+        "remainingQuantity": 0,
+        "status": "CANCELLED",
+        "seq": 2,
+        "createdAt": "2026-09-28T21:47:19.679266250Z",
+        "updatedAt": "2026-09-28T21:47:19.712231792Z"
+      },
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1000,
+              "quantity": 10,
+              "orderCount": 1
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 10,
+            "status": "NEW",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.689022Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.712232Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 2,
+          "totalTradeVolume": 15,
+          "totalFilledQuantity": 30,
+          "buyFilledQuantity": 15,
+          "sellFilledQuantity": 15,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 1,
+          "totalOrderCount": 4
+        }
+      }
+    },
+    {
+      "step": 6,
+      "command": {
+        "type": "CANCEL",
+        "clientOrderId": "S3",
+        "note": "撤销 S3 全部10（未成交），10.00档清空"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 34,
+        "clientOrderId": "S3",
+        "symbol": "SYNTH-01",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 10,
+        "filledQuantity": 0,
+        "remainingQuantity": 0,
+        "status": "CANCELLED",
+        "seq": 3,
+        "createdAt": "2026-09-28T21:47:19.689020792Z",
+        "updatedAt": "2026-09-28T21:47:19.718136209Z"
+      },
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.718136Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.712232Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 2,
+          "totalTradeVolume": 15,
+          "totalFilledQuantity": 30,
+          "buyFilledQuantity": 15,
+          "sellFilledQuantity": 15,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 0,
+          "totalOrderCount": 4
+        }
+      }
+    },
+    {
+      "step": 7,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "A1",
+        "side": "SELL",
+        "priceTicks": 1001,
+        "quantity": 8,
+        "note": "卖单 10.01×8 第一档"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 36,
+        "clientOrderId": "A1",
+        "symbol": "SYNTH-01",
+        "side": "SELL",
+        "priceTicks": 1001,
+        "quantity": 8,
+        "filledQuantity": 0,
+        "remainingQuantity": 8,
+        "status": "NEW",
+        "seq": 4,
+        "createdAt": "2026-09-28T21:47:19.725387Z",
+        "updatedAt": "2026-09-28T21:47:19.725387459Z"
+      },
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1001,
+              "quantity": 8,
+              "orderCount": 1
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 36,
+            "clientOrderId": "A1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "filledQuantity": 0,
+            "remainingQuantity": 8,
+            "status": "NEW",
+            "seq": 4,
+            "createdAt": "2026-09-28T21:47:19.725387Z",
+            "updatedAt": "2026-09-28T21:47:19.725387Z"
+          },
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.718136Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.712232Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 2,
+          "totalTradeVolume": 15,
+          "totalFilledQuantity": 30,
+          "buyFilledQuantity": 15,
+          "sellFilledQuantity": 15,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 1,
+          "totalOrderCount": 5
+        }
+      }
+    },
+    {
+      "step": 8,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "A2",
+        "side": "SELL",
+        "priceTicks": 1002,
+        "quantity": 20,
+        "note": "卖单 10.02×20 第二档"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 37,
+        "clientOrderId": "A2",
+        "symbol": "SYNTH-01",
+        "side": "SELL",
+        "priceTicks": 1002,
+        "quantity": 20,
+        "filledQuantity": 0,
+        "remainingQuantity": 20,
+        "status": "NEW",
+        "seq": 5,
+        "createdAt": "2026-09-28T21:47:19.731005584Z",
+        "updatedAt": "2026-09-28T21:47:19.731005917Z"
+      },
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1001,
+              "quantity": 8,
+              "orderCount": 1
+            },
+            {
+              "priceTicks": 1002,
+              "quantity": 20,
+              "orderCount": 1
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 37,
+            "clientOrderId": "A2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1002,
+            "quantity": 20,
+            "filledQuantity": 0,
+            "remainingQuantity": 20,
+            "status": "NEW",
+            "seq": 5,
+            "createdAt": "2026-09-28T21:47:19.731006Z",
+            "updatedAt": "2026-09-28T21:47:19.731006Z"
+          },
+          {
+            "id": 36,
+            "clientOrderId": "A1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "filledQuantity": 0,
+            "remainingQuantity": 8,
+            "status": "NEW",
+            "seq": 4,
+            "createdAt": "2026-09-28T21:47:19.725387Z",
+            "updatedAt": "2026-09-28T21:47:19.725387Z"
+          },
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.718136Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.712232Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 2,
+          "totalTradeVolume": 15,
+          "totalFilledQuantity": 30,
+          "buyFilledQuantity": 15,
+          "sellFilledQuantity": 15,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 2,
+          "totalOrderCount": 6
+        }
+      }
+    },
+    {
+      "step": 9,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "B2",
+        "side": "BUY",
+        "priceTicks": 1002,
+        "quantity": 18,
+        "note": "买单 10.02×18：吃掉10.01全部8、10.02部成10（吃掉两档）"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 38,
+        "clientOrderId": "B2",
+        "symbol": "SYNTH-01",
+        "side": "BUY",
+        "priceTicks": 1002,
+        "quantity": 18,
+        "filledQuantity": 18,
+        "remainingQuantity": 0,
+        "status": "FILLED",
+        "seq": 0,
+        "createdAt": "2026-09-28T21:47:19.738005167Z",
+        "updatedAt": "2026-09-28T21:47:19.738640334Z"
+      },
+      "newTrades": [
+        {
+          "id": 22,
+          "symbol": "SYNTH-01",
+          "makerOrderId": 36,
+          "makerClientOrderId": "A1",
+          "takerOrderId": 38,
+          "takerClientOrderId": "B2",
+          "takerSide": "BUY",
+          "priceTicks": 1001,
+          "quantity": 8,
+          "createdAt": "2026-09-28T21:47:19.738636Z"
+        },
+        {
+          "id": 23,
+          "symbol": "SYNTH-01",
+          "makerOrderId": 37,
+          "makerClientOrderId": "A2",
+          "takerOrderId": 38,
+          "takerClientOrderId": "B2",
+          "takerSide": "BUY",
+          "priceTicks": 1002,
+          "quantity": 10,
+          "createdAt": "2026-09-28T21:47:19.738641Z"
+        }
+      ],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1002,
+              "quantity": 10,
+              "orderCount": 1
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 38,
+            "clientOrderId": "B2",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1002,
+            "quantity": 18,
+            "filledQuantity": 18,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.738005Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 37,
+            "clientOrderId": "A2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1002,
+            "quantity": 20,
+            "filledQuantity": 10,
+            "remainingQuantity": 10,
+            "status": "PARTIALLY_FILLED",
+            "seq": 5,
+            "createdAt": "2026-09-28T21:47:19.731006Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 36,
+            "clientOrderId": "A1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "filledQuantity": 8,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 4,
+            "createdAt": "2026-09-28T21:47:19.725387Z",
+            "updatedAt": "2026-09-28T21:47:19.738634Z"
+          },
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.718136Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.712232Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 23,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 37,
+            "makerClientOrderId": "A2",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1002,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.738641Z"
+          },
+          {
+            "id": 22,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 36,
+            "makerClientOrderId": "A1",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "createdAt": "2026-09-28T21:47:19.738636Z"
+          },
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 4,
+          "totalTradeVolume": 33,
+          "totalFilledQuantity": 66,
+          "buyFilledQuantity": 33,
+          "sellFilledQuantity": 33,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 1,
+          "totalOrderCount": 7
+        }
+      }
+    },
+    {
+      "step": 10,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "C1",
+        "side": "BUY",
+        "priceTicks": 1000,
+        "quantity": 12,
+        "note": "买单 10.00×12 入簿"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 39,
+        "clientOrderId": "C1",
+        "symbol": "SYNTH-01",
+        "side": "BUY",
+        "priceTicks": 1000,
+        "quantity": 12,
+        "filledQuantity": 0,
+        "remainingQuantity": 12,
+        "status": "NEW",
+        "seq": 6,
+        "createdAt": "2026-09-28T21:47:19.746363251Z",
+        "updatedAt": "2026-09-28T21:47:19.746363667Z"
+      },
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1002,
+              "quantity": 10,
+              "orderCount": 1
+            }
+          ],
+          "bids": [
+            {
+              "priceTicks": 1000,
+              "quantity": 12,
+              "orderCount": 1
+            }
+          ]
+        },
+        "orders": [
+          {
+            "id": 39,
+            "clientOrderId": "C1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 12,
+            "filledQuantity": 0,
+            "remainingQuantity": 12,
+            "status": "NEW",
+            "seq": 6,
+            "createdAt": "2026-09-28T21:47:19.746363Z",
+            "updatedAt": "2026-09-28T21:47:19.746364Z"
+          },
+          {
+            "id": 38,
+            "clientOrderId": "B2",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1002,
+            "quantity": 18,
+            "filledQuantity": 18,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.738005Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 37,
+            "clientOrderId": "A2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1002,
+            "quantity": 20,
+            "filledQuantity": 10,
+            "remainingQuantity": 10,
+            "status": "PARTIALLY_FILLED",
+            "seq": 5,
+            "createdAt": "2026-09-28T21:47:19.731006Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 36,
+            "clientOrderId": "A1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "filledQuantity": 8,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 4,
+            "createdAt": "2026-09-28T21:47:19.725387Z",
+            "updatedAt": "2026-09-28T21:47:19.738634Z"
+          },
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.718136Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.712232Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 23,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 37,
+            "makerClientOrderId": "A2",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1002,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.738641Z"
+          },
+          {
+            "id": 22,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 36,
+            "makerClientOrderId": "A1",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "createdAt": "2026-09-28T21:47:19.738636Z"
+          },
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 4,
+          "totalTradeVolume": 33,
+          "totalFilledQuantity": 66,
+          "buyFilledQuantity": 33,
+          "sellFilledQuantity": 33,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 2,
+          "totalOrderCount": 8
+        }
+      }
+    },
+    {
+      "step": 11,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "T1",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 7,
+        "note": "卖单 10.00×7：C1部分成交7，剩5"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 40,
+        "clientOrderId": "T1",
+        "symbol": "SYNTH-01",
+        "side": "SELL",
+        "priceTicks": 1000,
+        "quantity": 7,
+        "filledQuantity": 7,
+        "remainingQuantity": 0,
+        "status": "FILLED",
+        "seq": 0,
+        "createdAt": "2026-09-28T21:47:19.752090876Z",
+        "updatedAt": "2026-09-28T21:47:19.752536917Z"
+      },
+      "newTrades": [
+        {
+          "id": 24,
+          "symbol": "SYNTH-01",
+          "makerOrderId": 39,
+          "makerClientOrderId": "C1",
+          "takerOrderId": 40,
+          "takerClientOrderId": "T1",
+          "takerSide": "SELL",
+          "priceTicks": 1000,
+          "quantity": 7,
+          "createdAt": "2026-09-28T21:47:19.752539Z"
+        }
+      ],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1002,
+              "quantity": 10,
+              "orderCount": 1
+            }
+          ],
+          "bids": [
+            {
+              "priceTicks": 1000,
+              "quantity": 5,
+              "orderCount": 1
+            }
+          ]
+        },
+        "orders": [
+          {
+            "id": 40,
+            "clientOrderId": "T1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 7,
+            "filledQuantity": 7,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.752091Z",
+            "updatedAt": "2026-09-28T21:47:19.752537Z"
+          },
+          {
+            "id": 39,
+            "clientOrderId": "C1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 12,
+            "filledQuantity": 7,
+            "remainingQuantity": 5,
+            "status": "PARTIALLY_FILLED",
+            "seq": 6,
+            "createdAt": "2026-09-28T21:47:19.746363Z",
+            "updatedAt": "2026-09-28T21:47:19.752537Z"
+          },
+          {
+            "id": 38,
+            "clientOrderId": "B2",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1002,
+            "quantity": 18,
+            "filledQuantity": 18,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.738005Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 37,
+            "clientOrderId": "A2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1002,
+            "quantity": 20,
+            "filledQuantity": 10,
+            "remainingQuantity": 10,
+            "status": "PARTIALLY_FILLED",
+            "seq": 5,
+            "createdAt": "2026-09-28T21:47:19.731006Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 36,
+            "clientOrderId": "A1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "filledQuantity": 8,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 4,
+            "createdAt": "2026-09-28T21:47:19.725387Z",
+            "updatedAt": "2026-09-28T21:47:19.738634Z"
+          },
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.718136Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.712232Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 24,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 39,
+            "makerClientOrderId": "C1",
+            "takerOrderId": 40,
+            "takerClientOrderId": "T1",
+            "takerSide": "SELL",
+            "priceTicks": 1000,
+            "quantity": 7,
+            "createdAt": "2026-09-28T21:47:19.752539Z"
+          },
+          {
+            "id": 23,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 37,
+            "makerClientOrderId": "A2",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1002,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.738641Z"
+          },
+          {
+            "id": 22,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 36,
+            "makerClientOrderId": "A1",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "createdAt": "2026-09-28T21:47:19.738636Z"
+          },
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 5,
+          "totalTradeVolume": 40,
+          "totalFilledQuantity": 80,
+          "buyFilledQuantity": 40,
+          "sellFilledQuantity": 40,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 2,
+          "totalOrderCount": 9
+        }
+      }
+    },
+    {
+      "step": 12,
+      "command": {
+        "type": "CANCEL",
+        "clientOrderId": "C1",
+        "note": "撤销 C1 剩余5（已成交7保留）"
+      },
+      "httpStatus": 200,
+      "ok": true,
+      "rejected": false,
+      "errorCode": null,
+      "orderResponse": {
+        "id": 39,
+        "clientOrderId": "C1",
+        "symbol": "SYNTH-01",
+        "side": "BUY",
+        "priceTicks": 1000,
+        "quantity": 12,
+        "filledQuantity": 7,
+        "remainingQuantity": 0,
+        "status": "CANCELLED",
+        "seq": 6,
+        "createdAt": "2026-09-28T21:47:19.746363251Z",
+        "updatedAt": "2026-09-28T21:47:19.758956626Z"
+      },
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1002,
+              "quantity": 10,
+              "orderCount": 1
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 40,
+            "clientOrderId": "T1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 7,
+            "filledQuantity": 7,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.752091Z",
+            "updatedAt": "2026-09-28T21:47:19.752537Z"
+          },
+          {
+            "id": 39,
+            "clientOrderId": "C1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 12,
+            "filledQuantity": 7,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 6,
+            "createdAt": "2026-09-28T21:47:19.746363Z",
+            "updatedAt": "2026-09-28T21:47:19.758957Z"
+          },
+          {
+            "id": 38,
+            "clientOrderId": "B2",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1002,
+            "quantity": 18,
+            "filledQuantity": 18,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.738005Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 37,
+            "clientOrderId": "A2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1002,
+            "quantity": 20,
+            "filledQuantity": 10,
+            "remainingQuantity": 10,
+            "status": "PARTIALLY_FILLED",
+            "seq": 5,
+            "createdAt": "2026-09-28T21:47:19.731006Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 36,
+            "clientOrderId": "A1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "filledQuantity": 8,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 4,
+            "createdAt": "2026-09-28T21:47:19.725387Z",
+            "updatedAt": "2026-09-28T21:47:19.738634Z"
+          },
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.718136Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.712232Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 24,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 39,
+            "makerClientOrderId": "C1",
+            "takerOrderId": 40,
+            "takerClientOrderId": "T1",
+            "takerSide": "SELL",
+            "priceTicks": 1000,
+            "quantity": 7,
+            "createdAt": "2026-09-28T21:47:19.752539Z"
+          },
+          {
+            "id": 23,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 37,
+            "makerClientOrderId": "A2",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1002,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.738641Z"
+          },
+          {
+            "id": 22,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 36,
+            "makerClientOrderId": "A1",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "createdAt": "2026-09-28T21:47:19.738636Z"
+          },
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 5,
+          "totalTradeVolume": 40,
+          "totalFilledQuantity": 80,
+          "buyFilledQuantity": 40,
+          "sellFilledQuantity": 40,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 1,
+          "totalOrderCount": 9
+        }
+      }
+    },
+    {
+      "step": 13,
+      "command": {
+        "type": "PLACE",
+        "clientOrderId": "S1",
+        "side": "SELL",
+        "priceTicks": 999,
+        "quantity": 99,
+        "expectStatus": 409,
+        "note": "重复订单号S1：必须409拒绝，不新增订单"
+      },
+      "httpStatus": 409,
+      "ok": true,
+      "rejected": true,
+      "errorCode": "DUPLICATE_ORDER",
+      "newTrades": [],
+      "page": {
+        "book": {
+          "asks": [
+            {
+              "priceTicks": 1002,
+              "quantity": 10,
+              "orderCount": 1
+            }
+          ],
+          "bids": []
+        },
+        "orders": [
+          {
+            "id": 40,
+            "clientOrderId": "T1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 7,
+            "filledQuantity": 7,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.752091Z",
+            "updatedAt": "2026-09-28T21:47:19.752537Z"
+          },
+          {
+            "id": 39,
+            "clientOrderId": "C1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 12,
+            "filledQuantity": 7,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 6,
+            "createdAt": "2026-09-28T21:47:19.746363Z",
+            "updatedAt": "2026-09-28T21:47:19.758957Z"
+          },
+          {
+            "id": 38,
+            "clientOrderId": "B2",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1002,
+            "quantity": 18,
+            "filledQuantity": 18,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.738005Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 37,
+            "clientOrderId": "A2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1002,
+            "quantity": 20,
+            "filledQuantity": 10,
+            "remainingQuantity": 10,
+            "status": "PARTIALLY_FILLED",
+            "seq": 5,
+            "createdAt": "2026-09-28T21:47:19.731006Z",
+            "updatedAt": "2026-09-28T21:47:19.738640Z"
+          },
+          {
+            "id": 36,
+            "clientOrderId": "A1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "filledQuantity": 8,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 4,
+            "createdAt": "2026-09-28T21:47:19.725387Z",
+            "updatedAt": "2026-09-28T21:47:19.738634Z"
+          },
+          {
+            "id": 35,
+            "clientOrderId": "B1",
+            "symbol": "SYNTH-01",
+            "side": "BUY",
+            "priceTicks": 1000,
+            "quantity": 15,
+            "filledQuantity": 15,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 0,
+            "createdAt": "2026-09-28T21:47:19.699953Z",
+            "updatedAt": "2026-09-28T21:47:19.700668Z"
+          },
+          {
+            "id": 34,
+            "clientOrderId": "S3",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 0,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 3,
+            "createdAt": "2026-09-28T21:47:19.689021Z",
+            "updatedAt": "2026-09-28T21:47:19.718136Z"
+          },
+          {
+            "id": 33,
+            "clientOrderId": "S2",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 5,
+            "remainingQuantity": 0,
+            "status": "CANCELLED",
+            "seq": 2,
+            "createdAt": "2026-09-28T21:47:19.679266Z",
+            "updatedAt": "2026-09-28T21:47:19.712232Z"
+          },
+          {
+            "id": 32,
+            "clientOrderId": "S1",
+            "symbol": "SYNTH-01",
+            "side": "SELL",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "filledQuantity": 10,
+            "remainingQuantity": 0,
+            "status": "FILLED",
+            "seq": 1,
+            "createdAt": "2026-09-28T21:47:19.667119Z",
+            "updatedAt": "2026-09-28T21:47:19.700663Z"
+          }
+        ],
+        "trades": [
+          {
+            "id": 24,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 39,
+            "makerClientOrderId": "C1",
+            "takerOrderId": 40,
+            "takerClientOrderId": "T1",
+            "takerSide": "SELL",
+            "priceTicks": 1000,
+            "quantity": 7,
+            "createdAt": "2026-09-28T21:47:19.752539Z"
+          },
+          {
+            "id": 23,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 37,
+            "makerClientOrderId": "A2",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1002,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.738641Z"
+          },
+          {
+            "id": 22,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 36,
+            "makerClientOrderId": "A1",
+            "takerOrderId": 38,
+            "takerClientOrderId": "B2",
+            "takerSide": "BUY",
+            "priceTicks": 1001,
+            "quantity": 8,
+            "createdAt": "2026-09-28T21:47:19.738636Z"
+          },
+          {
+            "id": 21,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 33,
+            "makerClientOrderId": "S2",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 5,
+            "createdAt": "2026-09-28T21:47:19.700672Z"
+          },
+          {
+            "id": 20,
+            "symbol": "SYNTH-01",
+            "makerOrderId": 32,
+            "makerClientOrderId": "S1",
+            "takerOrderId": 35,
+            "takerClientOrderId": "B1",
+            "takerSide": "BUY",
+            "priceTicks": 1000,
+            "quantity": 10,
+            "createdAt": "2026-09-28T21:47:19.700666Z"
+          }
+        ],
+        "conservation": {
+          "tradeCount": 5,
+          "totalTradeVolume": 40,
+          "totalFilledQuantity": 80,
+          "buyFilledQuantity": 40,
+          "sellFilledQuantity": 40,
+          "balance": 0,
+          "conserved": true,
+          "activeOrderCount": 1,
+          "totalOrderCount": 9
+        }
+      }
+    }
+  ],
+  "finalConservation": {
+    "tradeCount": 5,
+    "totalTradeVolume": 40,
+    "totalFilledQuantity": 80,
+    "buyFilledQuantity": 40,
+    "sellFilledQuantity": 40,
+    "balance": 0,
+    "conserved": true,
+    "activeOrderCount": 1,
+    "totalOrderCount": 9
+  }
+}
