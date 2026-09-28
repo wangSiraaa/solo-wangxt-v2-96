@@ -1,0 +1,39 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: limit-matching
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:matchdb}
+    username: ${DB_USER:match}
+    password: ${DB_PASSWORD:match}
+    hikari:
+      maximum-pool-size: 5
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: false
+
+app:
+  # 首版只支持一个（合成）交易标的
+  symbol: SYNTH-0
+  # 价格最小变动单位：0.01 货币单位 = 1 个整数 tick，全程用整数 tick 比较
+  tick-size: "0.01"
+  # 最小交易数量单位（股）
+  lot-size: 1
+  admin:
+    # 教学环境允许 POST /api/admin/reset 清空订单和成交
+    reset-enabled: ${ADMIN_RESET_ENABLED:true}
+
+logging:
+  level:
+    com.teaching.match: INFO
